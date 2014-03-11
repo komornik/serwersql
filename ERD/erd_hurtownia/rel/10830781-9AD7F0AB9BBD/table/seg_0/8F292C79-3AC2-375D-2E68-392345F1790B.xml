@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F292C79-3AC2-375D-2E68-392345F1790B" name="rabat">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 18:50:49 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rabat_id" id="678F97C0-C0F4-9011-A940-130B473BA3FC">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 18:51:14 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wysokosc" id="66C2E501-DC47-EB58-CD12-8D3F248E5043">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 18:51:46 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EF58704-2369-EC43-07E7-D59297B91AA0" name="Rabat_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 18:51:14 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="678F97C0-C0F4-9011-A940-130B473BA3FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

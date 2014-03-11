@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2F5FAF3-E64E-6F3C-6592-FEA526CB8CFE" name="faktura">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:19:18 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="faktura_id" id="0DAAB7D2-972D-0347-C454-B1171ADE8546">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:21:23 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sciezka_plik" id="ED0796B2-9182-3549-33E7-623ECEEF43B6">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:21:23 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_utworzenia" id="1E922D48-E566-0270-F5A5-7F0C67374466">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:21:45 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_faktury" id="431912F6-3D33-6F05-A724-69026C7D3947">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:22:11 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18F7522B-E6AF-23DE-7FE6-BDD0514C4E16" name="Faktura_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:21:23 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DAAB7D2-972D-0347-C454-B1171ADE8546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

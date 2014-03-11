@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAF95E33-C64C-230B-8233-4D092E75B398" name="magazyn">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:23:03 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produkt" id="5DE84E37-FC8A-74A6-148E-3CB1E39F77E2">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_produktu" id="3622110B-E245-2991-AAFC-6E2C3A213C5E">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc" id="D5880259-D778-6218-0EAF-CD45D0949CEE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="DD9DFC08-DC2E-2F14-B1B9-4CC89D4B593B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_utworzenia" id="AC7E53C2-7DD8-F056-F263-3599DECC947A">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_modyfikacji" id="0E953C18-3F7A-58B0-02FB-15E89FBFFEE1">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77A23C96-D605-C416-C3F3-1B30FBC9D9F4" name="magazyn_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:25:02 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DE84E37-FC8A-74A6-148E-3CB1E39F77E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

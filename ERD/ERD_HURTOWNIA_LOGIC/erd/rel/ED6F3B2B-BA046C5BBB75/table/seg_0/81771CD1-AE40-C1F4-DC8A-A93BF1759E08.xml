@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81771CD1-AE40-C1F4-DC8A-A93BF1759E08" name="ULICA">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>BA1EC2E3-7B74-625E-4658-1A5CEA9AFFFA</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ulica_id" id="FEF55956-2388-EEE1-86AB-C0162A506336">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>4DB89C12-D454-C702-CA3E-E74E428B89D2</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_ulicy" id="A95BDB36-53F6-7478-7333-904DC8F5959C">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>2FC982BB-A55B-E071-92B7-0ECA0176CE14</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA_ID1" id="710A97F3-09A5-66DC-C021-B846A2C210A4">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="KOD_POCZT_KOD_POCZT_ID1" id="4107851B-3727-1084-1568-3D7471446749">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>A8D65A9E-2CAF-7B2C-8E21-99D7EF9632BD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C40AE08-1527-D399-CF9B-985F7462AA13" referredColumn="A8D65A9E-2CAF-7B2C-8E21-99D7EF9632BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88901723-9B4B-0A0E-F296-37EE725C2585" name="ULICA_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="710A97F3-09A5-66DC-C021-B846A2C210A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB61C53-CB2B-5F13-225D-AA17AAA88751" name="ULICA__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>DE954D19-778B-6874-6AF4-F34DC4E45523</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEF55956-2388-EEE1-86AB-C0162A506336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66554474-9039-2A9A-A77B-FD6C544A4F2B" name="ULICA_KOD_POCZT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>AAB064F9-8AE8-C2B0-FAE4-6712D2022F75</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4107851B-3727-1084-1568-3D7471446749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

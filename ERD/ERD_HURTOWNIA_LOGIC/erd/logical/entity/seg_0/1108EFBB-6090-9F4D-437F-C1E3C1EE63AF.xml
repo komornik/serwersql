@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1108EFBB-6090-9F4D-437F-C1E3C1EE63AF" name="MAGAZYN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:40:17 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="magazyn_id" id="5182C621-4742-50A4-95F6-AC7A2FE62DF7">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:07:37 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nazwa_produktu" id="6F3D3F9C-82BF-64D7-039F-83AA1A2D4C6E">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:07:59 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+</Attribute>
+<Attribute name="ilosc" id="97A91C3E-7F0F-A63F-3FD7-41FF446B8931">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:08:20 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+</Attribute>
+<Attribute name="miara" id="EB1BEE15-6DB6-EAEA-BCA7-877384FAF854">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:08:54 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+</Attribute>
+<Attribute name="cena" id="1B6C69E8-5955-1340-A45C-1C9F3A042157">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:09:11 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+</Attribute>
+<Attribute name="data_dodania" id="1A1A2868-DF65-4684-2DEC-F6182CFA331C">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:09:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="data_modyfikacji" id="F6768AB9-5E7D-3A73-760A-8F5FBA72E5DC">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:09:39 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="117E93EC-3234-82EC-401F-FE7CF3980C44">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:09:39 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87F4CFDA-4E39-D33A-01B2-003175D5AA6B" name="MAGAZYN PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:07:55 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5182C621-4742-50A4-95F6-AC7A2FE62DF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

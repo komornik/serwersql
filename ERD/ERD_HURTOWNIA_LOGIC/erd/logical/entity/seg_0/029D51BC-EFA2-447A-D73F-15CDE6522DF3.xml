@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="029D51BC-EFA2-447A-D73F-15CDE6522DF3" name="ZAMOWIENIE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:40:04 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="zamownie_id" id="BA6C5DD1-4B78-2FC9-92E8-FE3CAA692810">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:06:53 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nr_zamowienia" id="8F1DADB6-A7F4-D16F-7079-E87552547A1E">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:07:08 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0B0FE1C-7930-7FD1-30C2-92964CE135CC" name="ZAMOWIENIE PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:07:07 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA6C5DD1-4B78-2FC9-92E8-FE3CAA692810</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4030FC3A-9557-DB6D-142B-8D6ACD59D93B" name="KLIENT">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>D86FD176-829D-21A0-660D-961F8EC3920C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="klient_id" id="EB17C8E9-96F6-72B6-A7DB-25BBED43B226">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>2C021244-8A9D-C436-4278-A45F109E8614</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_firmy" id="C4884064-8F08-A792-FB5B-41465F17F995">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>315BE744-0F49-55FE-BC57-EB83CC176B1B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="49154C1B-A2CC-2223-04F0-9CDB1E83744B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>0811C757-399E-07D3-D872-1235140A844C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="A55EC4EA-7826-351E-89A2-FE9D80E6BDA3">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>CCEA002E-9EBE-17E9-CBA8-C6AF2D61638A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nip" id="2A4C1D92-0A3C-6959-2EED-88225D2725D1">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>EA22635B-63C4-0B79-20B4-8027B284DB7E</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regon" id="01ED58BF-84BB-C075-5D79-10EE6B4A5B84">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>1ED7FA53-D3F2-B51F-CEEC-C4632EEA854F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="5A6AB8AC-F44D-8071-ED60-97FFC10FF491">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>C5532DF2-FC81-0D1F-F050-A4E858CCDCF1</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENT_ID1" id="CEDB7893-84C3-BD3B-D39E-AA80750954FE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ULICA_ULICA_ID1" id="AF5B5007-A4A2-026D-E07A-C56791E4AC4F">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>710A97F3-09A5-66DC-C021-B846A2C210A4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62DE509D-0767-D5B8-355E-B03F328962BB" referredColumn="710A97F3-09A5-66DC-C021-B846A2C210A4"/>
+</associations>
+</Column>
+<Column name="RABAT_RABAT_ID1" id="AF5CCA3A-D052-D0D5-69B6-5C4C637E0527">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>953DED56-6B25-4A4F-DD59-2C789BF67A06</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="170F809E-2B51-E7E5-5535-E5B3C53FFAE0" referredColumn="953DED56-6B25-4A4F-DD59-2C789BF67A06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A1E1E37-B992-4837-E43C-45EE367ABED3" name="KLIENT_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CEDB7893-84C3-BD3B-D39E-AA80750954FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CF440D4-721F-0C80-0ADE-612EAB7C0FF3" name="KLIENT__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>BC3F6623-99F5-9681-4ADD-7AF616766F86</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB17C8E9-96F6-72B6-A7DB-25BBED43B226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A0AC641-71C3-DD81-7E97-75EE946FAFAB" name="KLIENT_ULICA_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>7026AD38-184E-5FA8-3580-403085529D2B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5B5007-A4A2-026D-E07A-C56791E4AC4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84A99ACA-F45E-3800-905E-D04FE60A19DD" name="KLIENT_RABAT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>59A2EA47-2882-FAE3-220F-24391F33BE7B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5CCA3A-D052-D0D5-69B6-5C4C637E0527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

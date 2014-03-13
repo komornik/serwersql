@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ulica_kod" directorySegmentName="seg_0" id="AAB064F9-8AE8-C2B0-FAE4-6712D2022F75">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:50:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="113E26F4-2444-0D84-5AA5-BBF202A42F25" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>52BCA1B5-CA52-93E6-0647-E77BA7F9E6D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA1EC2E3-7B74-625E-4658-1A5CEA9AFFFA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

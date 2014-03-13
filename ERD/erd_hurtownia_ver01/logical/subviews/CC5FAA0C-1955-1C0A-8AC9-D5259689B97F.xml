@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="CC5FAA0C-1955-1C0A-8AC9-D5259689B97F">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:34:35 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6CB2BA52-F64D-905C-440D-1C16EE3B1591" otype="Entity" vid="22438145-5A57-CA97-3334-18F54CC63053">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="85" y="56" width="245" height="151"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AAE4076A-9FDF-B9FD-DE8A-3D7A3732BF31" otype="Entity" vid="7B8246A8-644B-81F5-3D5A-9399F638A464">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="216" y="324" width="170" height="110"/>
+</OView>
+</objectViews>
+<displays>
+<Display class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Display_1" id="0D730574-0278-7FC5-EEB8-DA28598A7CB4">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:46:40 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>true</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6CB2BA52-F64D-905C-440D-1C16EE3B1591" otype="Entity" vid="2A9120BD-1166-488F-7A5B-4BCDD828B2CA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="50" y="50" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AAE4076A-9FDF-B9FD-DE8A-3D7A3732BF31" otype="Entity" vid="C6E93879-1742-B53B-8FC4-1A9149C389CE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="60" y="70" width="170" height="110"/>
+</OView>
+</objectViews>
+</Display>
+</displays>
+</Diagram>

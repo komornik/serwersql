@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rabat_kient" directorySegmentName="seg_0" id="59A2EA47-2882-FAE3-220F-24391F33BE7B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:51:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="113E26F4-2444-0D84-5AA5-BBF202A42F25" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D1664A2-6D07-83E1-3625-2F854105DB42</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D86FD176-829D-21A0-660D-961F8EC3920C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

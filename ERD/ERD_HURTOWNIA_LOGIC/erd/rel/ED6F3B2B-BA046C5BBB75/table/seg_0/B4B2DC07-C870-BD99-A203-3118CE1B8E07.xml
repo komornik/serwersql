@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4B2DC07-C870-BD99-A203-3118CE1B8E07" name="ZAMOWIENIE_HAS_FAKTURA">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>743BDBEA-A043-35D0-EE29-D7CA37AC9669</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAMOWIENIE_HAS_FAKTURA_ID" id="ED8E986B-13E9-BC55-EBA5-0B9CA51C1156">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="FAKTURA_FAKTURA_ID1" id="43FF08E6-E94A-B4BB-9126-383DD73558E0">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>755C78A7-B81C-C297-EF47-022C3F234FD2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEA9A894-BFBE-582E-1B42-2E92E63EECB7" referredColumn="755C78A7-B81C-C297-EF47-022C3F234FD2"/>
+</associations>
+</Column>
+<Column name="ZAMOWIENIE_ZAMOWIENIE_ID" id="C115BC43-0C4A-43C1-66CC-60361D530097">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>BA41339A-503A-2D6B-F294-0BC5500633BB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC065F48-4D21-C6F2-887B-B125BB8CA70E" referredColumn="BA41339A-503A-2D6B-F294-0BC5500633BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAAF9771-A55F-EF47-16E2-94892070DFDE" name="ZAMOWIENIE_HAS_FAKTURA_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="ED8E986B-13E9-BC55-EBA5-0B9CA51C1156"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A373A0C0-DE5A-AC18-262E-3FDF30BF2A14" name="ZAMOWIENIE_HAS_FAKTURA_FAKTURA_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>C374C7E2-6BF5-EACB-34A6-6B104E2C8BB0</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43FF08E6-E94A-B4BB-9126-383DD73558E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED329EAD-9FDF-0AB5-AC03-81197EBFA86B" name="ZAMOWIENIE_HAS_FAKTURA_ZAMOWIENIE_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>FD0C9B67-5214-19CE-D2E3-FC655B6E20B9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C115BC43-0C4A-43C1-66CC-60361D530097"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

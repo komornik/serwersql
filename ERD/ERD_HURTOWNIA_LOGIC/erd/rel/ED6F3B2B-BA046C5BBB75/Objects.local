@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="71E58EBC-0616-3D41-9745-D757340AF2E2" name="FAKTURA" seqName="seg_0"/>
+   <object objectType="Table" objectID="4030FC3A-9557-DB6D-142B-8D6ACD59D93B" name="KLIENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="E10DC24A-0DA7-95F9-6137-A92D88EB9C58" name="KOD_POCZT" seqName="seg_0"/>
+   <object objectType="Table" objectID="B7B3DCC8-F64A-571B-AAC2-5CEBA2227C7F" name="MAGAZYN" seqName="seg_0"/>
+   <object objectType="Table" objectID="01A2EEC0-15E9-A781-7644-B3F2FAF1F6EB" name="RABAT" seqName="seg_0"/>
+   <object objectType="Table" objectID="81771CD1-AE40-C1F4-DC8A-A93BF1759E08" name="ULICA" seqName="seg_0"/>
+   <object objectType="Table" objectID="51FCD175-B0C1-181B-EE99-75E3A7CAEF67" name="ZAMOWIENIE" seqName="seg_0"/>
+   <object objectType="Table" objectID="B4B2DC07-C870-BD99-A203-3118CE1B8E07" name="ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
+   <object objectType="Table" objectID="312F405F-176C-E3F3-0A48-A5C7F371BE5B" name="ZAMOWIENIE_HAS_MAGAZYN" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7D8BDA06-810E-7EAD-F611-2961FD7BD67E" name="FAKTURA_KLIENT_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="170F809E-2B51-E7E5-5535-E5B3C53FFAE0" name="KLIENT_RABAT_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="62DE509D-0767-D5B8-355E-B03F328962BB" name="KLIENT_ULICA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1C40AE08-1527-D399-CF9B-985F7462AA13" name="ULICA_KOD_POCZT_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EEA9A894-BFBE-582E-1B42-2E92E63EECB7" name="ZAMOWIENIE_HAS_FAKTURA_FAKTURA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FC065F48-4D21-C6F2-887B-B125BB8CA70E" name="ZAMOWIENIE_HAS_FAKTURA_ZAMOWIENIE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="33CFE433-F5E4-538C-EB9C-EDEA8EDDD86E" name="ZAMOWIENIE_HAS_MAGAZYN_MAGAZYN_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F26DCDA6-054C-94F4-BD79-8A3588E076E7" name="ZAMOWIENIE_HAS_MAGAZYN_ZAMOWIENIE_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EB0E523-756E-AA8B-32FF-E76B65B183FA" name="FAKTURA">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:42:10 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="faktura_id" id="4CE803C2-CB93-D601-A7C8-3B576C9B528D">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:05:12 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nr_faktury" id="9EB21AC4-3AA6-88D5-B94D-3A29DF53D3B3">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:06:00 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="sciezka" id="363A9295-E352-3677-97B4-9BCCC6DA3330">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:05:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+</Attribute>
+<Attribute name="data_wystawienia" id="DCF69691-6329-4D1C-D50D-D7EFA99B8DCD">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:05:45 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75F05285-FDE3-7B9F-5272-EED879106236" name="FAKTURA PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:05:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CE803C2-CB93-D601-A7C8-3B576C9B528D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

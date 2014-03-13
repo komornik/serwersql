@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAE4076A-9FDF-B9FD-DE8A-3D7A3732BF31" name="Rabat">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:52:09 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rabat_id" id="986A385D-D510-993B-0A08-7A0C3BA028B5">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:52:18 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="wysokosc" id="8BCA5F35-7CD1-1294-0F42-D40A155251DE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:52:32 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

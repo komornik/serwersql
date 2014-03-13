@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="826C05B5-F2C2-04B8-5B0D-A7A2EFABC357" name="zamowienie">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:37:28 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zamowienie_id" id="D6BC513C-7F81-F515-6114-19787314F584">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:40:00 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_zamowienia" id="BB032231-0CD7-0511-240A-A745F60E97AA">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:41:01 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC2DD420-52E2-B7B4-453F-76A15217F26F" name="zamowienie_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:40:00 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6BC513C-7F81-F515-6114-19787314F584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

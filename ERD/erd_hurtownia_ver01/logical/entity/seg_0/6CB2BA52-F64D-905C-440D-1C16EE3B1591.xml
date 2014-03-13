@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CB2BA52-F64D-905C-440D-1C16EE3B1591" name="klient">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:48:47 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="klient_id" id="0CCED142-119B-7BCF-E32D-89FA1C649BFE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:48:59 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nazwa_firmy" id="AF031BF4-B477-E726-6CD2-B233FC258246">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:49:16 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+</Attribute>
+<Attribute name="imie" id="0C93F5BB-3C72-2D88-F9F8-4F983AE9CB28">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:49:35 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="Nazwisko" id="E7E55876-91DF-CAF8-1C48-8C48770521C2">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:49:56 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+<Attribute name="nip" id="C6373F1C-7E8F-D3FE-5A54-978703FE107B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:50:11 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="regon" id="B3E004BA-47AA-DF20-B480-23310CE0CF55">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:51:22 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+</Attribute>
+<Attribute name="telefon" id="C8BA6B07-5A98-B671-F2AC-2CD2A7A82384">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:51:44 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD79DB85-3B9D-2858-CC9D-729A30E23440" name="klient PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-11 19:49:14 UTC</createdTime>
+<ownerDesignName>erd_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="10830781-CD9E-E573-E354-9AD7F0AB9BBD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CCED142-119B-7BCF-E32D-89FA1C649BFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

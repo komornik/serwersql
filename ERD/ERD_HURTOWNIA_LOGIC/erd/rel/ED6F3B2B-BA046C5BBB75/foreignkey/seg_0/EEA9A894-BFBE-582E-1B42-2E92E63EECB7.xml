@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEA9A894-BFBE-582E-1B42-2E92E63EECB7" name="ZAMOWIENIE_HAS_FAKTURA_FAKTURA_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:18:47 UTC</createdTime>
+<generatorID>C374C7E2-6BF5-EACB-34A6-6B104E2C8BB0</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<containerWithKeyObject>B4B2DC07-C870-BD99-A203-3118CE1B8E07</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>A373A0C0-DE5A-AC18-262E-3FDF30BF2A14</localFKIndex>
+<keyObject>A6D040A3-633D-B277-53E6-5877B5A6DF2A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

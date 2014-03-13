@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D86FD176-829D-21A0-660D-961F8EC3920C" name="KLIENT">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:39:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="klient_id" id="2C021244-8A9D-C436-4278-A45F109E8614">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:58:03 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nazwa_firmy" id="315BE744-0F49-55FE-BC57-EB83CC176B1B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:58:19 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+</Attribute>
+<Attribute name="imie" id="0811C757-399E-07D3-D872-1235140A844C">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:58:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="nazwisko" id="CCEA002E-9EBE-17E9-CBA8-C6AF2D61638A">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:59:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="nip" id="EA22635B-63C4-0B79-20B4-8027B284DB7E">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:00:09 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="regon" id="1ED7FA53-D3F2-B51F-CEEC-C4632EEA854F">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:00:27 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+</Attribute>
+<Attribute name="telefon" id="C5532DF2-FC81-0D1F-F050-A4E858CCDCF1">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 22:00:59 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC3F6623-99F5-9681-4ADD-7AF616766F86" name="KLIENT PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-13 21:58:17 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C021244-8A9D-C436-4278-A45F109E8614</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

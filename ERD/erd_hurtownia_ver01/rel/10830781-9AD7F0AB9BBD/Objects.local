@@ -2,9 +2,14 @@
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="Table" objectID="356EDA8C-F0EE-1A9A-7E4E-2634D40BCF47" name="kod_poczt" seqName="seg_0"/>
    <object objectType="Table" objectID="4E64E63F-DB3A-4615-9965-A0DDC791958A" name="klient" seqName="seg_0"/>
+<<<<<<< HEAD:ERD/erd_hurtownia_ver01/rel/10830781-9AD7F0AB9BBD/Objects.local
    <object objectType="Table" objectID="826C05B5-F2C2-04B8-5B0D-A7A2EFABC357" name="zamowienie" seqName="seg_0"/>
    <object objectType="Table" objectID="8F292C79-3AC2-375D-2E68-392345F1790B" name="rabat" seqName="seg_0"/>
    <object objectType="Table" objectID="AAF95E33-C64C-230B-8233-4D092E75B398" name="magazynProduktow" seqName="seg_0"/>
+=======
+   <object objectType="Table" objectID="8F292C79-3AC2-375D-2E68-392345F1790B" name="rabat" seqName="seg_0"/>
+   <object objectType="Table" objectID="AAF95E33-C64C-230B-8233-4D092E75B398" name="magazyn" seqName="seg_0"/>
+>>>>>>> origin:ERD/erd_hurtownia/rel/10830781-9AD7F0AB9BBD/Objects.local
    <object objectType="Table" objectID="B41DA368-09F9-2D6C-6A7F-D3EF62998DD9" name="ulica" seqName="seg_0"/>
    <object objectType="Table" objectID="E2F5FAF3-E64E-6F3C-6592-FEA526CB8CFE" name="faktura" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

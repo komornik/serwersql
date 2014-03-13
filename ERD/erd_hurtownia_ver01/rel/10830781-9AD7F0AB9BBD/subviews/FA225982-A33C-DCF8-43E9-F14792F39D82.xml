@@ -14,7 +14,11 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="356EDA8C-F0EE-1A9A-7E4E-2634D40BCF47" otype="Table" vid="1D4DEFE0-1A37-5B98-73A9-66F07DCE7E29">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<<<<<<< HEAD:ERD/erd_hurtownia_ver01/rel/10830781-9AD7F0AB9BBD/subviews/FA225982-A33C-DCF8-43E9-F14792F39D82.xml
 <bounds x="862" y="408" width="170" height="110"/>
+=======
+<bounds x="575" y="38" width="243" height="111"/>
+>>>>>>> origin:ERD/erd_hurtownia/rel/10830781-9AD7F0AB9BBD/subviews/FA225982-A33C-DCF8-43E9-F14792F39D82.xml
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="4E64E63F-DB3A-4615-9965-A0DDC791958A" otype="Table" vid="9F43103B-3A54-2524-0A67-9800F9D51C25">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -26,10 +30,11 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8F292C79-3AC2-375D-2E68-392345F1790B" otype="Table" vid="8AD67361-BCC1-35E8-6B8E-868C90E6D9FF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="32" y="371" width="170" height="110"/>
+<bounds x="54" y="245" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="AAF95E33-C64C-230B-8233-4D092E75B398" otype="Table" vid="A0191D2B-2FA0-5CB9-7DD0-EBB6B62059BA">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<<<<<<< HEAD:ERD/erd_hurtownia_ver01/rel/10830781-9AD7F0AB9BBD/subviews/FA225982-A33C-DCF8-43E9-F14792F39D82.xml
 <bounds x="665" y="47" width="170" height="134"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B41DA368-09F9-2D6C-6A7F-D3EF62998DD9" otype="Table" vid="074BE206-830C-D366-EB1F-A094EE584672">
@@ -39,6 +44,17 @@
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E2F5FAF3-E64E-6F3C-6592-FEA526CB8CFE" otype="Table" vid="7F12B37E-5DE7-0DEF-8702-64E6CA6B6A36">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="303" y="381" width="170" height="110"/>
+=======
+<bounds x="486" y="163" width="215" height="134"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B41DA368-09F9-2D6C-6A7F-D3EF62998DD9" otype="Table" vid="074BE206-830C-D366-EB1F-A094EE584672">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="335" y="19" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E2F5FAF3-E64E-6F3C-6592-FEA526CB8CFE" otype="Table" vid="7F12B37E-5DE7-0DEF-8702-64E6CA6B6A36">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="250" y="259" width="239" height="107"/>
+>>>>>>> origin:ERD/erd_hurtownia/rel/10830781-9AD7F0AB9BBD/subviews/FA225982-A33C-DCF8-43E9-F14792F39D82.xml
 </OView>
 </objectViews>
 </Diagram>

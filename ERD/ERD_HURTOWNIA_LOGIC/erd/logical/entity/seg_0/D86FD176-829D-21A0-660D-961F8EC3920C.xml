@@ -3,9 +3,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:39:26 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:58:03 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:58:19 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,9 +35,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:58:42 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,9 +45,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:59:02 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,9 +55,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 22:00:09 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,9 +65,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 22:00:27 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -96,9 +75,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 22:00:59 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,9 +86,6 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:58:17 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="ED6F3B2B-CDBC-53F5-871B-BA046C5BBB75" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2C021244-8A9D-C436-4278-A45F109E8614</attributeRef>

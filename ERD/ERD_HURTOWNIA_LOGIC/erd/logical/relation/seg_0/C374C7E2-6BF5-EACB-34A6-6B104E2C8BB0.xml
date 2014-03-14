@@ -3,10 +3,9 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:55:36 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="113E26F4-2444-0D84-5AA5-BBF202A42F25" value="true"/>
-</engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
+<sourcePk>75F05285-FDE3-7B9F-5272-EED879106236</sourcePk>
+<targetPk>3C428442-5561-4F92-5C57-48ECE6917D5C</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
@@ -16,4 +15,15 @@
 <targetEntity>743BDBEA-A043-35D0-EE29-D7CA37AC9669</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="faktura_faktura_id" id="A1BAE8EC-42B9-E603-2FDA-ABC9F1537F74">
+<createdBy>Krzysztof</createdBy>
+<createdTime>2014-03-14 06:31:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+</attributes>
 </Relation>

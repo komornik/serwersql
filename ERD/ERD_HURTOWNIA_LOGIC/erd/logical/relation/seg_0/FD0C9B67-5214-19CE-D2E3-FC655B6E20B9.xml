@@ -3,11 +3,9 @@
 <createdBy>admin</createdBy>
 <createdTime>2014-03-13 21:54:37 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="113E26F4-2444-0D84-5AA5-BBF202A42F25" value="true"/>
-</engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
 <sourcePk>F0B0FE1C-7930-7FD1-30C2-92964CE135CC</sourcePk>
+<targetPk>3C428442-5561-4F92-5C57-48ECE6917D5C</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

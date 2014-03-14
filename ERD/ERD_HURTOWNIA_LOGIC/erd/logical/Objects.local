@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="029D51BC-EFA2-447A-D73F-15CDE6522DF3" name="ZAMOWIENIE" seqName="seg_0"/>
-   <object objectType="Entity" objectID="1108EFBB-6090-9F4D-437F-C1E3C1EE63AF" name="MAGAZYN" seqName="seg_0"/>
-   <object objectType="Entity" objectID="114D4FC7-FAD2-174D-C30F-E062449862AF" name="ZAMOWIENIE_HAS_MAGAZYN" seqName="seg_0"/>
    <object objectType="Entity" objectID="4EB0E523-756E-AA8B-32FF-E76B65B183FA" name="FAKTURA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="52BCA1B5-CA52-93E6-0647-E77BA7F9E6D1" name="KOD_POCZT" seqName="seg_0"/>
-   <object objectType="Entity" objectID="6D1664A2-6D07-83E1-3625-2F854105DB42" name="RABAT" seqName="seg_0"/>
-   <object objectType="Entity" objectID="743BDBEA-A043-35D0-EE29-D7CA37AC9669" name="ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="BA1EC2E3-7B74-625E-4658-1A5CEA9AFFFA" name="ULICA" seqName="seg_0"/>
    <object objectType="Entity" objectID="D86FD176-829D-21A0-660D-961F8EC3920C" name="KLIENT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="52BCA1B5-CA52-93E6-0647-E77BA7F9E6D1" name="KOD_POCZT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1108EFBB-6090-9F4D-437F-C1E3C1EE63AF" name="MAGAZYN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6D1664A2-6D07-83E1-3625-2F854105DB42" name="RABAT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BA1EC2E3-7B74-625E-4658-1A5CEA9AFFFA" name="ULICA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="029D51BC-EFA2-447A-D73F-15CDE6522DF3" name="ZAMOWIENIE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="743BDBEA-A043-35D0-EE29-D7CA37AC9669" name="ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="114D4FC7-FAD2-174D-C30F-E062449862AF" name="ZAMOWIENIE_HAS_MAGAZYN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C374C7E2-6BF5-EACB-34A6-6B104E2C8BB0" name="FAKTURA_ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7026AD38-184E-5FA8-3580-403085529D2B" name="KLIENT_ULICA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FD0C9B67-5214-19CE-D2E3-FC655B6E20B9" name="ZAMOWIENIE_ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CEFED918-E503-2E3B-024D-F8F4750E384F" name="klient_faktura" seqName="seg_0"/>
    <object objectType="Relation" objectID="33585E6E-4B57-3091-6233-8C0C18BBB53C" name="magazyn_zamowienie_has_magazyn" seqName="seg_0"/>
    <object objectType="Relation" objectID="59A2EA47-2882-FAE3-220F-24391F33BE7B" name="rabat_kient" seqName="seg_0"/>
-   <object objectType="Relation" objectID="5C3BBA96-D055-DFAB-9194-A6D5DA629358" name="zamowienie_zmamowienie_has_magazyn" seqName="seg_0"/>
-   <object objectType="Relation" objectID="7026AD38-184E-5FA8-3580-403085529D2B" name="KLIENT_ULICA" seqName="seg_0"/>
    <object objectType="Relation" objectID="AAB064F9-8AE8-C2B0-FAE4-6712D2022F75" name="ulica_kod" seqName="seg_0"/>
-   <object objectType="Relation" objectID="C374C7E2-6BF5-EACB-34A6-6B104E2C8BB0" name="FAKTURA_ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
-   <object objectType="Relation" objectID="CEFED918-E503-2E3B-024D-F8F4750E384F" name="klient_faktura" seqName="seg_0"/>
-   <object objectType="Relation" objectID="FD0C9B67-5214-19CE-D2E3-FC655B6E20B9" name="ZAMOWIENIE_ZAMOWIENIE_HAS_FAKTURA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5C3BBA96-D055-DFAB-9194-A6D5DA629358" name="zamowienie_zmamowienie_has_magazyn" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DBEA36D-1DF2-00E4-9441-EA58E274C9C4" name="ZAMOWIENIE_HAS_MAGAZYN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>114D4FC7-FAD2-174D-C30F-E062449862AF</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ilosc" id="CFF4E875-6211-6E0C-0639-B6D8AE135BAC">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>8D984815-625B-CF96-06F9-A9954C8AA287</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="B329D062-0244-A49A-B7E3-9500CF7C2631">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>9686C9F1-55D2-6832-26CC-9DFA1ADA76CF</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMOWIENIE_HAS_MAGAZYN_ID" id="DB24CEFB-3DFA-5E94-0930-310B76A021AB">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="MAGAZYN_MAGAZYN_ID1" id="5416203E-6F4D-0984-9631-D72FAA7AF3AB">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>866B64FA-43B1-E2D5-18D7-B2B9A98CD733</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E65925AA-6B31-A9AF-F6FB-5EA11C0DF027" referredColumn="866B64FA-43B1-E2D5-18D7-B2B9A98CD733"/>
+</associations>
+</Column>
+<Column name="ZAMOWIENIE_ZAMOWIENIE_ID" id="CD5DE82D-0C90-F751-ABD7-E420E7827806">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>6098C8CB-E340-9D28-9F40-19623EFB2A52</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49FD2CEB-D46D-C712-08B3-9614AA47491C" referredColumn="6098C8CB-E340-9D28-9F40-19623EFB2A52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="431C8BCA-7ED3-46A1-271A-AEE33CECCE05" name="ZAMOWIENIE_HAS_MAGAZYN_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DB24CEFB-3DFA-5E94-0930-310B76A021AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A45E1B-A237-05BE-D9FF-8DC3719995BE" name="ZAMOWIENIE_HAS_MAGAZYN_MAGAZYN_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>33585E6E-4B57-3091-6233-8C0C18BBB53C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5416203E-6F4D-0984-9631-D72FAA7AF3AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953A2A02-49E2-9DA7-442B-8CF1BA1C1A17" name="ZAMOWIENIE_HAS_MAGAZYN_ZAMOWIENIE_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>5C3BBA96-D055-DFAB-9194-A6D5DA629358</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD5DE82D-0C90-F751-ABD7-E420E7827806"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

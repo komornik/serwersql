@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="685E1D8A-3DAB-A3DC-996E-488483CCCD7B" name="ZAMOWIENIE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>029D51BC-EFA2-447A-D73F-15CDE6522DF3</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zamownie_id" id="4F341255-9D32-96C0-72E1-76DECE86746C">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>BA6C5DD1-4B78-2FC9-92E8-FE3CAA692810</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_zamowienia" id="E74E2A50-2659-C124-DE14-AAE7C957AB23">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>8F1DADB6-A7F4-D16F-7079-E87552547A1E</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMOWIENIE_ID" id="6098C8CB-E340-9D28-9F40-19623EFB2A52">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0F87523-2703-7829-3D85-32E998A8250E" name="ZAMOWIENIE_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6098C8CB-E340-9D28-9F40-19623EFB2A52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90E26C85-C10E-B9E3-5273-39E12BAAA73B" name="ZAMOWIENIE__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>F0B0FE1C-7930-7FD1-30C2-92964CE135CC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F341255-9D32-96C0-72E1-76DECE86746C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

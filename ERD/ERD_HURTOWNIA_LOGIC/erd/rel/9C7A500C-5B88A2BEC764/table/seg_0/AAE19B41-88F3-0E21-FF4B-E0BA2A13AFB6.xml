@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE19B41-88F3-0E21-FF4B-E0BA2A13AFB6" name="RABAT">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>6D1664A2-6D07-83E1-3625-2F854105DB42</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rabat_id" id="210ECA0E-CE1E-22D5-7F8E-A12811224E70">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>C4B7FE03-66FE-33F3-97DA-F57ADBFD0508</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wysokosc" id="0AF17DC7-32BD-56C3-C421-E0FD46628E9B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>8C6CFBD3-E535-A5F7-1390-1D235A88CA0C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RABAT_ID1" id="2B1AFABF-69FC-A663-E6FD-3E146BE3A425">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F635765A-CB3E-51D7-0114-6CB3466DB2CA" name="RABAT_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2B1AFABF-69FC-A663-E6FD-3E146BE3A425"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5BA3F3A-F6CE-1EDA-BBC9-97EC1D765B9A" name="RABAT__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>F3D6C95D-5F81-7ADC-D451-CBA317478F2A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210ECA0E-CE1E-22D5-7F8E-A12811224E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="068B4A77-D87C-1D3F-F2A6-9356E02DD993" name="ULICA_KOD_POCZT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:25:16 UTC</createdTime>
+<generatorID>AAB064F9-8AE8-C2B0-FAE4-6712D2022F75</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<containerWithKeyObject>CFBB13B3-90A7-1A27-E802-180B1A82FAA8</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>F46B8383-A566-C10B-E86D-6B5D4FC8AA99</localFKIndex>
+<keyObject>C5B354E1-31F8-B761-977A-5F2DC5AD6DA3</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

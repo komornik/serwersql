@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zamowienie_has_faktura" directorySegmentName="seg_0" id="2F0DD2C8-DFA5-EC6C-A41D-1E7050D7A480">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-15 08:22:59 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4EB0E523-756E-AA8B-32FF-E76B65B183FA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>029D51BC-EFA2-447A-D73F-15CDE6522DF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

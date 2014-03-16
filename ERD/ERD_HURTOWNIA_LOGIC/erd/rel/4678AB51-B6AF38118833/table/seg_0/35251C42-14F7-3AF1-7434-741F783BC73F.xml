@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35251C42-14F7-3AF1-7434-741F783BC73F" name="ROZCHODY">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>B8D64ADD-0A3B-32C4-8E36-B6B850B7BD6A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rozchodu" id="3545E135-3D8C-72A8-E6A6-AE8390B48570">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>02D65154-1B99-6FA8-73B3-51A1C6EA2D2E</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc" id="189DC17B-0A5A-F47F-91C8-905C44457CD4">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>41988CB2-164C-5728-94D9-C00ACF7A5E22</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROZCHODY_ID" id="C92A1210-EAD7-A6FD-8485-B55C36B2CE00">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="STAN_MAGAYNOWY_STAN_MAGAYNOWY_ID" id="F53B0F09-FAD6-2E00-C42E-16060A1B1ECE">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>8ABC6AC5-8D50-3EEF-0DD0-9257DA6451FC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88B697D6-87C8-FBCA-B8B8-EC74ABE041B7" referredColumn="8ABC6AC5-8D50-3EEF-0DD0-9257DA6451FC"/>
+</associations>
+</Column>
+<Column name="ZAMOWIENIE_ZAMOWIENIE_ID" id="010807CA-42DA-0C12-F458-A9E5F066E11D">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>7D995197-1A92-3531-2037-2F097B536F1F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="923ED81C-CEE2-BF82-E4AE-2B8DFF81149E" referredColumn="7D995197-1A92-3531-2037-2F097B536F1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1163D690-921D-70A4-5F04-A48B1AF8C9E7" name="ROZCHODY_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C92A1210-EAD7-A6FD-8485-B55C36B2CE00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="007DA6F3-57B7-8478-0EC8-94078FF46DA1" name="ROZCHODY__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>851B5D03-4F50-E772-73C2-816A2906CD37</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3545E135-3D8C-72A8-E6A6-AE8390B48570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28C714CA-41FB-BE30-6742-E1D3813F90CC" name="ROZCHODY_STAN_MAGAYNOWY_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>D0E5CD8B-D30C-4E1F-7893-71692C9AD7C9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53B0F09-FAD6-2E00-C42E-16060A1B1ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B7B5AFD-1B71-6383-8B51-D5C7020DEEBC" name="ROZCHODY_ZAMOWIENIE_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>CF871385-6F5A-0AFF-66EF-99A7F11899AE</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="010807CA-42DA-0C12-F458-A9E5F066E11D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

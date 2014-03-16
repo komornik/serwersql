@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D86FD176-829D-21A0-660D-961F8EC3920C" name="KLIENT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3103F398-AEC3-E272-CB3A-64A99416952C" name="PRODUKT">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:39:26 UTC</createdTime>
+<createdTime>2014-03-16 15:00:12 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -16,9 +16,9 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="klient_id" id="2C021244-8A9D-C436-4278-A45F109E8614">
+<Attribute name="produkt_id" id="9FCC4CFF-B94B-1567-011D-C758AD56AE14">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:58:03 UTC</createdTime>
+<createdTime>2014-03-16 15:00:20 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -27,9 +27,33 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="nazwa_firmy" id="315BE744-0F49-55FE-BC57-EB83CC176B1B">
+<Attribute name="nazwa_produktu" id="837F2030-A168-1F8B-EBAD-13D10D242D9D">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:58:19 UTC</createdTime>
+<createdTime>2014-03-16 15:00:35 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+</Attribute>
+<Attribute name="data_dodania" id="524FD79B-BDF4-F802-128B-DA7C0AA7A059">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:05:16 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="miara" id="2A582405-6ED9-5278-AC1B-A3C2ED8ADAFC">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:14:48 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -38,11 +62,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256</dataTypeSize>
 </Attribute>
-<Attribute name="imie" id="0811C757-399E-07D3-D872-1235140A844C">
+<Attribute name="cena" id="AB20AEEE-6D62-BB60-E007-F0EF5898A896">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:58:42 UTC</createdTime>
+<createdTime>2014-03-16 15:15:08 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -50,12 +73,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
+<logicalDatatype>LOGDT020</logicalDatatype>
 </Attribute>
-<Attribute name="nazwisko" id="CCEA002E-9EBE-17E9-CBA8-C6AF2D61638A">
+<Attribute name="data_dodania_1" id="D8950D3D-90FC-8F14-FD4E-8FAB987D5F88">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:59:02 UTC</createdTime>
+<createdTime>2014-03-16 15:15:29 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -63,12 +85,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
+<logicalDatatype>LOGDT008</logicalDatatype>
 </Attribute>
-<Attribute name="nip" id="EA22635B-63C4-0B79-20B4-8027B284DB7E">
+<Attribute name="data_modyfikacji" id="48C2BFBC-886F-6F3B-7722-B95A6BEBA89D">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 22:00:09 UTC</createdTime>
+<createdTime>2014-03-16 15:15:40 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -76,46 +97,20 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-</Attribute>
-<Attribute name="regon" id="1ED7FA53-D3F2-B51F-CEEC-C4632EEA854F">
-<createdBy>admin</createdBy>
-<createdTime>2014-03-13 22:00:27 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>9</dataTypeSize>
-</Attribute>
-<Attribute name="telefon" id="C5532DF2-FC81-0D1F-F050-A4E858CCDCF1">
-<createdBy>admin</createdBy>
-<createdTime>2014-03-13 22:00:59 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BC3F6623-99F5-9681-4ADD-7AF616766F86" name="KLIENT PK">
+<identifier id="653595D2-EFC3-90CF-52B1-4B09FE0755FF" name="PRODUKT PK">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:58:17 UTC</createdTime>
+<createdTime>2014-03-16 15:00:33 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2C021244-8A9D-C436-4278-A45F109E8614</attributeRef>
+<attributeRef>9FCC4CFF-B94B-1567-011D-C758AD56AE14</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

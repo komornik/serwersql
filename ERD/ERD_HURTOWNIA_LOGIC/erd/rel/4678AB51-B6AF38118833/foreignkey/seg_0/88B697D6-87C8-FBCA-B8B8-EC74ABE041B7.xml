@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88B697D6-87C8-FBCA-B8B8-EC74ABE041B7" name="ROZCHODY_STAN_MAGAYNOWY_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>D0E5CD8B-D30C-4E1F-7893-71692C9AD7C9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<containerWithKeyObject>35251C42-14F7-3AF1-7434-741F783BC73F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>28C714CA-41FB-BE30-6742-E1D3813F90CC</localFKIndex>
+<keyObject>B10BB089-334A-9EF1-5482-DE620531191A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="923ED81C-CEE2-BF82-E4AE-2B8DFF81149E" name="ROZCHODY_ZAMOWIENIE_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>CF871385-6F5A-0AFF-66EF-99A7F11899AE</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<containerWithKeyObject>35251C42-14F7-3AF1-7434-741F783BC73F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5B7B5AFD-1B71-6383-8B51-D5C7020DEEBC</localFKIndex>
+<keyObject>5AEBDC2C-AC04-B072-277F-34413F440222</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

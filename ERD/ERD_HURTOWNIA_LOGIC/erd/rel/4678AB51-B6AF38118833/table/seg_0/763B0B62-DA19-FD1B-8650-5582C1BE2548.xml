@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="763B0B62-DA19-FD1B-8650-5582C1BE2548" name="FAKTURA">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>4EB0E523-756E-AA8B-32FF-E76B65B183FA</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="faktura_id" id="C4DE6DA3-02BE-398C-12A8-CBCCF22F5BA0">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>4CE803C2-CB93-D601-A7C8-3B576C9B528D</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_faktury" id="B09CEF6C-73D8-211E-61D2-0929DA652C6A">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>9EB21AC4-3AA6-88D5-B94D-3A29DF53D3B3</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sciezka" id="7D244670-5C6F-94E5-F7AE-2D13AC9A515D">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>363A9295-E352-3677-97B4-9BCCC6DA3330</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_wystawienia" id="BA5D01EF-DAB5-20DB-C5E5-FE5F40129A49">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>DCF69691-6329-4D1C-D50D-D7EFA99B8DCD</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAKTURA_ID1" id="C029626A-8A5F-4B4C-A8D5-F1C19B84E1E6">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="KLIENT_KLIENT_ID1" id="74508F55-1A84-A4CA-055A-7F9D748DA707">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>25C0FBD3-D305-BB8A-C2C3-7DF8DF3DCC85</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FB87233-B89E-DA57-DBE3-B4F3E9582714" referredColumn="25C0FBD3-D305-BB8A-C2C3-7DF8DF3DCC85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AE025EF-A110-568E-1991-28AA7E54D01E" name="FAKTURA_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C029626A-8A5F-4B4C-A8D5-F1C19B84E1E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E69AB08-8418-A437-0BC7-8943DFA806BF" name="FAKTURA__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>75F05285-FDE3-7B9F-5272-EED879106236</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4DE6DA3-02BE-398C-12A8-CBCCF22F5BA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2F67981-34FD-2D94-EB9D-9FFA15B3F04B" name="FAKTURA_KLIENT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>CEFED918-E503-2E3B-024D-F8F4750E384F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74508F55-1A84-A4CA-055A-7F9D748DA707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

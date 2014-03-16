@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="530041EF-0812-C812-4940-4335F7EC24F1" name="STAN_MAGAYNOWY">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>6A0BABC7-A836-B2F0-216D-279A6DF8CE87</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAN_MAGAYNOWY_ID" id="8ABC6AC5-8D50-3EEF-0DD0-9257DA6451FC">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="PRODUKT_PRODUKT_ID1" id="3269B40E-417D-BF5F-3E76-45AA52FB2683">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>633FBE56-8657-F83D-75AC-A4F382E67BB9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6130AE10-7D87-8F00-9A66-7642CE07EC73" referredColumn="633FBE56-8657-F83D-75AC-A4F382E67BB9"/>
+</associations>
+</Column>
+<Column name="MAGAZYN_MAGAZYN_ID1" id="669B3A01-C9C6-C451-20A3-15C5F1026216">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>6921ED25-014B-C82C-9D0B-27267A374D4A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CF747C3-C541-7E07-51F5-BB4FF5EAD8C5" referredColumn="6921ED25-014B-C82C-9D0B-27267A374D4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B10BB089-334A-9EF1-5482-DE620531191A" name="STAN_MAGAYNOWY_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8ABC6AC5-8D50-3EEF-0DD0-9257DA6451FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4305B69-F3E4-DAD6-7D1A-4B02A0F8FB19" name="STAN_MAGAYNOWY_PRODUKT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>9CC6E2A1-83A6-B0DA-40DB-EE9D109CD196</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3269B40E-417D-BF5F-3E76-45AA52FB2683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E88633EE-7967-FBB1-AB71-CEE7F08C0689" name="STAN_MAGAYNOWY_MAGAZYN_FK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<generatorID>691F7EF3-9192-61E8-6C36-C729106B0CB4</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669B3A01-C9C6-C451-20A3-15C5F1026216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1108EFBB-6090-9F4D-437F-C1E3C1EE63AF" name="MAGAZYN">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8D64ADD-0A3B-32C4-8E36-B6B850B7BD6A" name="ROZCHODY">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 21:40:17 UTC</createdTime>
+<createdTime>2014-03-16 15:08:59 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -16,9 +16,9 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="magazyn_id" id="5182C621-4742-50A4-95F6-AC7A2FE62DF7">
+<Attribute name="id_rozchodu" id="02D65154-1B99-6FA8-73B3-51A1C6EA2D2E">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 22:07:37 UTC</createdTime>
+<createdTime>2014-03-16 15:09:07 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -27,9 +27,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="nazwa_magazynu" id="6F3D3F9C-82BF-64D7-039F-83AA1A2D4C6E">
+<Attribute name="ilosc" id="41988CB2-164C-5728-94D9-C00ACF7A5E22">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 22:07:59 UTC</createdTime>
+<createdTime>2014-03-16 15:10:17 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
@@ -37,20 +37,20 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT020</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="87F4CFDA-4E39-D33A-01B2-003175D5AA6B" name="MAGAZYN PK">
+<identifier id="851B5D03-4F50-E772-73C2-816A2906CD37" name="ROZCHODY PK">
 <createdBy>admin</createdBy>
-<createdTime>2014-03-13 22:07:55 UTC</createdTime>
+<createdTime>2014-03-16 15:09:37 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="9C7A500C-E91D-EECE-8357-5B88A2BEC764" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5182C621-4742-50A4-95F6-AC7A2FE62DF7</attributeRef>
+<attributeRef>02D65154-1B99-6FA8-73B3-51A1C6EA2D2E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

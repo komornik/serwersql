@@ -1,0 +1,13 @@
+
+public interface KlientDAO {
+
+	public void addKlient(Klient klient);
+	
+	public void updateKlient(Klient klient);
+	
+	public void deleteKlient(int id_klient);
+	
+	public void get();
+	
+	public void findByNazwaFirmy(String nazwa_firmy);
+}

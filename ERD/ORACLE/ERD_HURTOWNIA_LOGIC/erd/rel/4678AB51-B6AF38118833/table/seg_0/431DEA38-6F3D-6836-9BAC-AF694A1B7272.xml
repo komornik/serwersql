@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="431DEA38-6F3D-6836-9BAC-AF694A1B7272" name="PRODUKT">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>3103F398-AEC3-E272-CB3A-64A99416952C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produkt_id" id="FF1DC3B1-C2E5-93B6-1F35-C663EC634047">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>9FCC4CFF-B94B-1567-011D-C758AD56AE14</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_produktu" id="16BA67CC-8978-DE0F-5129-3065B36203CC">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>837F2030-A168-1F8B-EBAD-13D10D242D9D</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_dodania" id="628A8F84-FF8B-A07A-806F-A90E25D10A74">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>524FD79B-BDF4-F802-128B-DA7C0AA7A059</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miara" id="155C0CC2-2D2F-81AB-6DA4-D76869E0727B">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>2A582405-6ED9-5278-AC1B-A3C2ED8ADAFC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="4816F26F-EE46-D240-8DD5-82F537196B33">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>AB20AEEE-6D62-BB60-E007-F0EF5898A896</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_dodania_1" id="86DDD6FB-44D1-1F3D-D8D4-72757EFAA565">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>D8950D3D-90FC-8F14-FD4E-8FAB987D5F88</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_modyfikacji" id="F1FCAC61-67BD-D628-1514-825012400488">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>48C2BFBC-886F-6F3B-7722-B95A6BEBA89D</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUKT_ID1" id="633FBE56-8657-F83D-75AC-A4F382E67BB9">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BA1A040-9346-122F-C017-4F5CBE5BE3AC" name="PRODUKT_PK">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="633FBE56-8657-F83D-75AC-A4F382E67BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64F34959-7AC2-1A28-F13E-BB990C8B2092" name="PRODUKT__UN">
+<createdBy>admin</createdBy>
+<createdTime>2014-03-16 15:35:47 UTC</createdTime>
+<generatorID>653595D2-EFC3-90CF-52B1-4B09FE0755FF</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1DC3B1-C2E5-93B6-1F35-C663EC634047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

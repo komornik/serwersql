@@ -1,0 +1,9 @@
+public class Klient{
+	private 
+	 String nazwa_firmy;
+	 String imie;
+	 String naziwsko;
+	 String nip;
+	 String regon;
+	 int telefon;
+}

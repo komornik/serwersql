@@ -1,0 +1,93 @@
+import java.util.List;
+import java.sql.*;
+
+public class KlientDAOImp implements KlientDAO{
+
+	static Connection con;
+	
+	static{
+		com.mysql.jdbc.jdbc2.optional.MysqlDataSource ds = new com.mysql.jdbc.jdbc2.optional.MysqlDataSource();
+		ds.setUser("root");
+		ds.setPassword("adm123");
+		ds.setDatabaseName("hurtownia");
+		try{
+			con = ds.getConnection();
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	 
+	@Override
+	public void addKlient(Klient klient) {
+		// TODO Auto-generated method stub
+		try {
+			PreparedStatement pstmt = 
+			 con.prepareStatement("INSERT INTO klient (nazwa_firmy, imie, nazwisko, nip, regon, telefon) VALUES (?, ?, ?, ?, ?, ?);");
+			 pstmt.setString(1, klient.getNazwa_firmy());
+			 pstmt.setString(2, klient.getImie());
+			 pstmt.setString(3, klient.getNaziwsko());
+			 pstmt.setString(4, klient.getNip());
+			 pstmt.setString(5, klient.getRegon());
+			 pstmt.setInt(6, klient.getTelefon());
+		
+			 pstmt.executeUpdate();
+			 
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void updateKlient(Klient klient) {
+		// TODO Auto-generated method stub
+		try {
+			PreparedStatement pstmt = 
+			 con.prepareStatement("UPDATE klient SET nazwa_firmy = ?, imie = ?, nazwisko = ?, nip = ?, regon = ?, telefon = ? WHERE klient_id = ?;");
+			pstmt.setString(1, klient.getNazwa_firmy());
+			pstmt.setString(2, klient.getImie());
+			pstmt.setString(3, klient.getNaziwsko());
+			pstmt.setString(4, klient.getNip());
+			pstmt.setString(5, klient.getRegon());
+			pstmt.setInt(6, klient.getTelefon());
+			pstmt.setInt(7, klient.getKilent_id());
+		
+			pstmt.executeUpdate();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void deleteKlient(int id_klient) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Klient> findByNazwaFirmy(String nazwa_firmy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Klient> findByNIP(String nip) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Klient> findByRegon(String regon) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Klient> get() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

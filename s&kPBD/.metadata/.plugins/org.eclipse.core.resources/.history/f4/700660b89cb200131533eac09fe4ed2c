@@ -1,0 +1,15 @@
+package pl.edu.swsim.simon_wieczorek;
+
+public class Klient{
+	
+	private int	klient_id;
+	private String nazwa_firmy;
+	private String imie;
+	private String nazwisko;
+	private String nip;
+	private String regon;
+	private int	telefon;
+	
+	
+	
+}

@@ -1,0 +1,43 @@
+package pl.edu.swsim.simon_wieczorek;
+
+import java.util.List;
+
+public class KlientDAOImp implements KlientDAO{
+
+	@Override
+	public void add(Klient klient) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int klient_id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Klient get(int klient_id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Klient getNip(String nip) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(Klient klient) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Klient> getKlient() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

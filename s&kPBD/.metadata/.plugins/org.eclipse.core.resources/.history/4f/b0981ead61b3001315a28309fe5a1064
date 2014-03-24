@@ -15,16 +15,15 @@ public class Main{
 		Main main = new Main();
 		
 		//main.addKlient("Jan", "Kowalski", "Staromiejskia", "123", "35", 000);
-		//main.listKlients(klientIm.getKlient());
+		main.listKlients(klientIm.getKlient());
 		
 		//Usuwanie klienta o ID 6
 	    //klientIm.delete(6);
 	    
-	    //main.listKlients(klientIm.getKlient());
+	    main.listKlients(klientIm.getKlient());
 	    
-	    //main.listKlients(klientIm.getNip("123"));
+	    main.listKlients(klientIm.getNip("123"));
 		
-	    //main.listKlients(klientIm.get(1));
 	} 
 	
 	

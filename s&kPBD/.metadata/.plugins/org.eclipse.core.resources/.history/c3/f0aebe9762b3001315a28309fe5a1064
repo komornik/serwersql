@@ -38,7 +38,7 @@ public class KlientDAOImp implements KlientDAO{
 		List<Klient> objKlient = session.createQuery("FROM  Klient WHERE klient_id = "+klient_id).list();
 		tx.commit();
 		session.close();
-		return objKlient;
+		return null;
 	}
 
 	@Override

@@ -1,2 +1,4 @@
 #Ignoruj klasy
 *.class
+#Ignoruj metadane
+.metadata/*

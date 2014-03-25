@@ -9,10 +9,6 @@ public class Main{
 	
 	static KlientDAOImp klientIm = new KlientDAOImp();
 	
-	static Rabat rabat = new Rabat();
-	
-	static RabatDAOImp rabatIm = new RabatDAOImp();
-	
 	public static void main(String args[]){	
 		
 		
@@ -29,12 +25,6 @@ public class Main{
 	    //main.listKlients(klientIm.getNip("123"));
 		
 	    //main.listKlients(klientIm.get(1));
-	
-		rabat.setWysokosc(0.5);
-		rabatIm.add(rabat);
-		for(Rabat rabat_ : rabatIm.get()){
-			System.out.println(rabat_.getRabat_id()+" | "+rabat_.getWysokosc());
-		}		
 	} 
 	
 	

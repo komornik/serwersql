@@ -939,3 +939,15 @@ Binding(CTRL+SHIFT+\,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SESSION 2014-03-25 06:42:46.010 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130314-1330
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2014-03-25 07:04:19.219
+!MESSAGE No valid Android XML Editor Delegate found for file /DAOHibernate/src/hibernate.cfg.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-03-25 07:04:32.744
+!MESSAGE No projects found for [D:\Git\serwersql\s&kPBD\DAOHibernate\src\hibernate.cfg.xml]

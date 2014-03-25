@@ -15,5 +15,6 @@
 			org.hibernate.dialect.MySQLInnoDBDialect
 		</property>
 		<mapping class="pl.edu.swsim.simon_wieczorek.Klient" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />
 	</session-factory>
 </hibernate-configuration>

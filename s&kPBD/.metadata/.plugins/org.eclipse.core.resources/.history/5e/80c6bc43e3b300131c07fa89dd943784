@@ -34,7 +34,10 @@ public class Main{
 		rabatIm.add(rabat);
 		for(Rabat rabat_ : rabatIm.get()){
 			System.out.println(rabat_.getRabat_id()+" | "+rabat_.getWysokosc());
-		}		
+		}
+		}
+	
+		
 	} 
 	
 	

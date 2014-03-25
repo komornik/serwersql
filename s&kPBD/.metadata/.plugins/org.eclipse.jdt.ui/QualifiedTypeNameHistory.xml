@@ -6,16 +6,20 @@
 <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Index"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Generated"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="antlr.collections.List"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.KlientDAO"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Klient"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.management.Query"/>
+<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.KlientDAOImp"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.RabatDAO"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.HibernateFactor"/>
 <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-<fullyQualifiedTypeName name="javax.management.Query"/>
-<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.KlientDAOImp"/>
+<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Rabat"/>
+<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.RabatDAOImp"/>
 </qualifiedTypeNameHistroy>

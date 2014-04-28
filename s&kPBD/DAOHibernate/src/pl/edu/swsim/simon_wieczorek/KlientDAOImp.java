@@ -25,17 +25,18 @@ public class KlientDAOImp implements KlientDAO{
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		/** "Delete Klient where klient_id = " wa¿na wielkoœæ liter z klient - nie zadzia³a  */
-		session.createQuery("Delete Klient where klient_id = "+klient_id).executeUpdate();
+		
+		Klient k = (Klient)session.get(Klient.class, klient_id);
+		session.delete(k);
 		tx.commit();
 		session.close();
 	}
 
 	@Override
-	public List<Klient> get(int klient_id) {
+	public Klient get(int klient_id) {
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
-		List<Klient> objKlient = session.createQuery("FROM  Klient WHERE klient_id = "+klient_id).list();
+		Klient objKlient = (Klient)session.get(Klient.class, klient_id);
 		tx.commit();
 		session.close();
 		return objKlient;

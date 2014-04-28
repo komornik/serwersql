@@ -15,6 +15,22 @@ public class Klient{
 	private String nip;
 	private String regon;
 	private int	telefon;
+
+	private Ulica ulica;
+	private Rabat rabat;
+	
+	public Ulica getUlica() {
+		return ulica;
+	}
+	public void setUlica(Ulica ulica) {
+		this.ulica = ulica;
+	}
+	public Rabat getRabat() {
+		return rabat;
+	}
+	public void setRabat(Rabat rabat) {
+		this.rabat = rabat;
+	}
 	
 	public int getKlient_id() {
 		return klient_id;

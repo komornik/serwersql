@@ -36,7 +36,7 @@ public class RabatDAOImp implements RabatDAO{
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Rabat> rabatList = session.createQuery("FROM Rabat").list();
+		List<Rabat> rabatList =session.createQuery("FROM Rabat").list();
 		
 		tx.commit();
 		session.close();
@@ -44,14 +44,13 @@ public class RabatDAOImp implements RabatDAO{
 	}
 
 	@Override
-	public List<Rabat> listId(int rabat_id) {
+	public Rabat listId(int rabat_id) {
 		// TODO Auto-generated method stub
 		
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Rabat> rabatList = session.createQuery("FROM Rabat WHERE rabat_id = "+rabat_id).list();
-		
+		Rabat rabatList = (Rabat)session.get(Rabat.class, rabat_id);
 		tx.commit();
 		session.close();
 				
@@ -74,9 +73,11 @@ public class RabatDAOImp implements RabatDAO{
 	@Override
 	public void delete(int rabat_id) {
 		Session session = HibernateFactor.getInstance().openSession();
-		Transaction tx = session.beginTransaction();
 		
-		session.createQuery("DELETE FROM Rabat WHERE rabat_id = "+rabat_id);
+		Transaction tx = session.beginTransaction();
+		Rabat r =(Rabat) session.get(Rabat.class, rabat_id);
+		session.delete(r);
+		
 		
 		tx.commit();
 		session.close();

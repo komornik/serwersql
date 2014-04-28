@@ -10,7 +10,7 @@
 		<property name="hibernate.connection.username">
 			root
 		</property>
-		<property name="hibernate.connection.password">adm123</property>
+		<property name="hibernate.connection.password">Sybilla17</property>
 		<property name="hibernate.dialect">
 			org.hibernate.dialect.MySQLInnoDBDialect
 		</property>

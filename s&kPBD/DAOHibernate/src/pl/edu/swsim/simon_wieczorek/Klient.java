@@ -19,12 +19,33 @@ public class Klient{
 	private Ulica ulica;
 	private Rabat rabat;
 	
+	
+	
+	public Klient(){}
+	
+	public Klient(String nazwa_firmy, String imie, String Nazwisko, String nip, 
+								String regon, int telefon, Ulica ulica, Rabat Rabat){
+		setImie(imie);
+		setNazwisko(Nazwisko);
+		setNazwa_firmy(nazwa_firmy);
+		setNip(nip);
+		setRegon(regon);
+		setTelefon(telefon);
+		setUlica(ulica);
+		setRabat(Rabat);
+	}
+	
+	
+	@OneToMany
 	public Ulica getUlica() {
 		return ulica;
 	}
+	
 	public void setUlica(Ulica ulica) {
 		this.ulica = ulica;
 	}
+	
+	@OneToMany
 	public Rabat getRabat() {
 		return rabat;
 	}
@@ -74,4 +95,5 @@ public class Klient{
 	public void setTelefon(int telefon) {
 		this.telefon = telefon;
 	}	
+	
 }

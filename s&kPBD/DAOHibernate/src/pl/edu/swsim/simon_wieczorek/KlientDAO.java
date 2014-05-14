@@ -7,7 +7,7 @@ public interface KlientDAO {
 	public void add(Klient klient);
 	public void delete(int klient_id);
 	public Klient get(int klient_id);
-	public List<Klient> getNip(String nip);
+	public Klient getKlientByNip(String nip);
 	public void update(Klient klient);
 	public List<Klient> getKlient();
 }

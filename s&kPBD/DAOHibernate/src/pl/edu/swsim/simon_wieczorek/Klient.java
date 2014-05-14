@@ -15,16 +15,38 @@ public class Klient{
 	private String nip;
 	private String regon;
 	private int	telefon;
+	
 
-	private Ulica ulica;
+	@ManyToOne
+	@JoinColumn(name="rabat_id")
 	private Rabat rabat;
 	
+	public Rabat getRabat() {
+		return rabat;
+	}
+
+	public void setRabat(Rabat rabat) {
+		this.rabat = rabat;
+	}
 	
+	@ManyToOne
+	@JoinColumn(name="ulica_id")
+	private Ulica ulica;
+	
+	public Ulica getUlica() {
+		return ulica;
+	}
+
+	public void setUlica(Ulica ulica) {
+		this.ulica = ulica;
+	}
+	
+
 	
 	public Klient(){}
 	
 	public Klient(String nazwa_firmy, String imie, String Nazwisko, String nip, 
-								String regon, int telefon, Ulica ulica, Rabat Rabat){
+								String regon, int telefon, Ulica ulica, Rabat rabat){
 		setImie(imie);
 		setNazwisko(Nazwisko);
 		setNazwa_firmy(nazwa_firmy);
@@ -32,26 +54,9 @@ public class Klient{
 		setRegon(regon);
 		setTelefon(telefon);
 		setUlica(ulica);
-		setRabat(Rabat);
+		setRabat(rabat);
 	}
 	
-	
-	@OneToMany
-	public Ulica getUlica() {
-		return ulica;
-	}
-	
-	public void setUlica(Ulica ulica) {
-		this.ulica = ulica;
-	}
-	
-	@OneToMany
-	public Rabat getRabat() {
-		return rabat;
-	}
-	public void setRabat(Rabat rabat) {
-		this.rabat = rabat;
-	}
 	
 	public int getKlient_id() {
 		return klient_id;

@@ -63,8 +63,7 @@ public class klientTest{
 	}
 	
 	@Test
-	public void updateTest(){
-	
+	public void updateTest(){	
 		Klient klientx = new Klient("Rolmpos", "Jan", "Szemrany", "060000000", "000001", 999999999, ulica.getUlica("Kalwari 2A"), rabat.listId(2));
 		klientx.setKlient_id(klientImpl.getKlientByNip("050000000").getKlient_id());
 		klientImpl.update(klientx);

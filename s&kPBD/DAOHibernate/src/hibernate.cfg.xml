@@ -20,6 +20,7 @@
 		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Kod_Poczt" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Ulica" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Magazyn" />
 	
 	</session-factory>
 </hibernate-configuration>

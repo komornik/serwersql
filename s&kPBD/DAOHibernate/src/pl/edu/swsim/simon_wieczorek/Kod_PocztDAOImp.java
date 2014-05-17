@@ -2,6 +2,8 @@ package pl.edu.swsim.simon_wieczorek;
 
 import java.util.List;
 
+import javax.management.Query;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -42,13 +44,13 @@ public class Kod_PocztDAOImp implements Kod_PocztDAO{
 	}
 
 	@Override
-	public List<Kod_Poczt> getZip(String kod_pocztowy) {
+	public Kod_Poczt getZip(String kod_pocztowy) {
 		// TODO Auto-generated method stub
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Kod_Poczt> kodLista = session.createQuery("FROM Kod_poczt WHERE kod_poczt = "+kod_pocztowy).list();
-		
+		org.hibernate.Query query = session.createQuery("FROM Kod_Poczt WHERE kod_poczt = '"+kod_pocztowy+"'");
+		Kod_Poczt kodLista = (Kod_Poczt) query.uniqueResult();
 		tx.commit();
 		session.close();
 	return kodLista;
@@ -72,7 +74,7 @@ public class Kod_PocztDAOImp implements Kod_PocztDAO{
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Kod_Poczt> daneKod = session.createQuery("from Kod_poczt").list();
+		List<Kod_Poczt> daneKod = session.createQuery("from Kod_Poczt").list();
 		
 		tx.commit();
 		session.close();
@@ -81,12 +83,13 @@ public class Kod_PocztDAOImp implements Kod_PocztDAO{
 	}
 
 	@Override
-	public List<Kod_Poczt> getMiejscowosc(String nazwa_miejscowosci) {
+	public Kod_Poczt getMiejscowosc(String nazwa_miejscowosci) {
 		// TODO Auto-generated method stub
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Kod_Poczt> kodLista = session.createQuery("FROM Kod_poczt WHERE nazwa_miejscowosci = "+nazwa_miejscowosci).list();
+		org.hibernate.Query query = session.createQuery("FROM Kod_Poczt WHERE nazwa_miejscowosci = '"+nazwa_miejscowosci+"'");
+		Kod_Poczt kodLista = (Kod_Poczt) query.uniqueResult();
 		
 		tx.commit();
 		session.close();

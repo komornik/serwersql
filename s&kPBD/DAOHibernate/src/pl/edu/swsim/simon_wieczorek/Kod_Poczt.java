@@ -6,6 +6,16 @@ import javax.persistence.Id;
 
 @Entity
 public class Kod_Poczt {
+	
+	public Kod_Poczt(){
+		
+		
+	}
+	
+	public Kod_Poczt(String kod, String miejscowosc ){
+		this.setKod_poczt(kod);
+		this.setNazwa_miejscowosci(miejscowosc);		
+	}
 
 	@Id
 	@GeneratedValue

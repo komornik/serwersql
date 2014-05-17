@@ -1,6 +1,7 @@
 <!DOCTYPE hibernate-configuration SYSTEM "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<session-factory>
+		<property name="connection.characterEncoding">UTF-8</property>
 		<property name="hibernate.connection.driver_class">
 			org.gjt.mm.mysql.Driver
 		</property>
@@ -10,11 +11,12 @@
 		<property name="hibernate.connection.username">
 			root
 		</property>
-		<property name="hibernate.connection.password">******</property>
+		<property name="hibernate.connection.password">Sybilla17</property>
 		<property name="hibernate.dialect">
 			org.hibernate.dialect.MySQLInnoDBDialect
 		</property>
-		<mapping class="pl.edu.swsim.simon_wieczorek.Klient" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Produkt" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Faktura" />
 	</session-factory>
 </hibernate-configuration>

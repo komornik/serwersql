@@ -1,6 +1,7 @@
 <!DOCTYPE hibernate-configuration SYSTEM "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<session-factory>
+		<property name="connection.characterEncoding">UTF-8</property>
 		<property name="hibernate.connection.driver_class">
 			org.gjt.mm.mysql.Driver
 		</property>
@@ -14,6 +15,7 @@
 		<property name="hibernate.dialect">
 			org.hibernate.dialect.MySQLInnoDBDialect
 		</property>
+<<<<<<< HEAD
 		<property name="show_sql">true</property>
 		
 		<mapping class="pl.edu.swsim.simon_wieczorek.Klient" />
@@ -22,5 +24,10 @@
 		<mapping class="pl.edu.swsim.simon_wieczorek.Ulica" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Magazyn" />
 	
+=======
+		<mapping class="pl.edu.swsim.simon_wieczorek.Produkt" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Faktura" />
+>>>>>>> origin/krzysztof.simon
 	</session-factory>
 </hibernate-configuration>

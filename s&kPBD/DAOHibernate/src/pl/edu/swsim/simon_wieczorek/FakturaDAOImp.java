@@ -2,85 +2,75 @@ package pl.edu.swsim.simon_wieczorek;
 
 import java.util.List;
 
+import javax.management.Query;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-public class RabatDAOImp implements RabatDAO{
+public class FakturaDAOImp implements FakturaDAO {
+
 
 	@Override
-	public void add(Rabat rabat) {
+	public void add(Faktura faktura) {
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
-		
-		session.saveOrUpdate(rabat);
-		
+		session.saveOrUpdate(faktura);
 		tx.commit();
 		session.close();
-		
 	}
 
 	@Override
-	public void update(Rabat rabat) {
-		// TODO Auto-generated method stub
+	public void update(Faktura faktura) {
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		session.saveOrUpdate(rabat);
+		session.update(faktura);
 		
 		tx.commit();
 		session.close();
 	}
 
 	@Override
-	public List<Rabat> get() {
+	public List<Faktura> getFaktura() {
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Rabat> rabatList = session.createQuery("FROM Rabat").list();
+		List<Faktura> fakturaList =session.createQuery("FROM faktura").list();
 		
 		tx.commit();
 		session.close();
-		return rabatList;
+		return fakturaList;
+		
 	}
 
 	@Override
-	public Rabat listId(int rabat_id) {
-		// TODO Auto-generated method stub
-		
+	public Faktura getFaktura(int faktura_id) {
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
-		
-		Rabat rabatList = (Rabat)session.get(Rabat.class, rabat_id);
+		Faktura objFaktura = (Faktura)session.get(Faktura.class, faktura_id);
 		tx.commit();
 		session.close();
-				
-		return rabatList;
+		return objFaktura;
 	}
 
 	@Override
-	public List<Rabat> listWysokosc(double wysokosc) {
+	public Faktura getFaktura(String nr_faktury) {
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
-		
-		List<Rabat> rabatList = session.createQuery("FROM Rabat WHERE wysokosc = "+wysokosc).list();
-		
+		Faktura objFaktura = (Faktura)session.get(Faktura.class, nr_faktury);
 		tx.commit();
 		session.close();
-				
-		return rabatList;
+		return objFaktura;
 	}
 
 	@Override
-	public void delete(int rabat_id) {
+	public void delete(int faktura_id) {
 		Session session = HibernateFactor.getInstance().openSession();
-		
 		Transaction tx = session.beginTransaction();
-		Rabat r =(Rabat) session.get(Rabat.class, rabat_id);
-		session.delete(r);
-		
-		
+		Faktura faktura =(Faktura) session.get(Faktura.class, faktura_id);
+		session.delete(faktura);
 		tx.commit();
 		session.close();
 	}
-	
+
 }

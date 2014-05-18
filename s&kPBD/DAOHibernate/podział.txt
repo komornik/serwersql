@@ -1,0 +1,12 @@
+faktura        - Krzysztof Simon -- zrobione
+produkt        -Krzysztof Simon  --zrobione
+przychody      -Krzysztof Simon
+rozchody       -Krzysztof Simon
+zamówienie     -Krzysztof Simon
+zamówienie_has_faktura -Krzysztof Simon‏‏
+klient         -Krystian Wieczorek -mam
+kod_poczt      -Krystian Wieczorek -mam
+magazyn        -Krystian Wieczorek -mam
+stan_magazynowy-Krystian Wieczorek  -brakuje
+ulica          -Krystian Wieczorek -mam
+rabat          -Krystian Wieczorek -mam

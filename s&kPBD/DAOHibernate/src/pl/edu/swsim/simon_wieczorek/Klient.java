@@ -15,6 +15,7 @@ public class Klient{
 	private String nip;
 	private String regon;
 	private int	telefon;
+<<<<<<< HEAD
 	
 
 	@ManyToOne
@@ -56,6 +57,10 @@ public class Klient{
 		setUlica(ulica);
 		setRabat(rabat);
 	}
+=======
+	private int rabat_id;
+	private int ulica_id;
+>>>>>>> origin/krzysztof.simon
 	
 	
 	public int getKlient_id() {
@@ -99,6 +104,19 @@ public class Klient{
 	}
 	public void setTelefon(int telefon) {
 		this.telefon = telefon;
+	}
+	public int getRabat_id() {
+		return rabat_id;
+	}
+	public void setRabat_id(int rabat_id) {
+		this.rabat_id = rabat_id;
+	}
+	
+	public int getUlica_id() {
+		return ulica_id;
+	}
+	public void setUlica_id(int ulica_id) {
+		this.ulica_id = ulica_id;
 	}	
 	
 }

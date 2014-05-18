@@ -1,5 +1,6 @@
 package pl.edu.swsim.simon_wieczorek;
 
+
 import javax.persistence.*;
 
 @Entity
@@ -9,7 +10,7 @@ public class Rabat{
 	@GeneratedValue
 	private int rabat_id;
 	private double wysokosc;
-	
+
 	public int getRabat_id() {
 		return rabat_id;
 	}
@@ -21,5 +22,5 @@ public class Rabat{
 	}
 	public void setWysokosc(double wysokosc) {
 		this.wysokosc = wysokosc;
-	}	
+	}		
 }

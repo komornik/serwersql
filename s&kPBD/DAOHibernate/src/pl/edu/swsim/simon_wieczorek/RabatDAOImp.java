@@ -36,7 +36,7 @@ public class RabatDAOImp implements RabatDAO{
 		Session session = HibernateFactor.getInstance().openSession();
 		Transaction tx = session.beginTransaction();
 		
-		List<Rabat> rabatList =session.createQuery("FROM Rabat").list();
+		List<Rabat> rabatList = session.createQuery("FROM Rabat").list();
 		
 		tx.commit();
 		session.close();

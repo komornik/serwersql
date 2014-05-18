@@ -9,7 +9,34 @@ import org.hibernate.*;
 
 @Entity
 @Table(name="stan_magazynowy")
-public class stanMagazynowy{
+public class StanMagazynowy{
+	
+	public Przchod getPrzychodLista() {
+		return przychodLista;
+	}
+
+	public void setPrzychodLista(Przchod przychodLista) {
+		this.przychodLista = przychodLista;
+	}
+
+	public Rozchod getRozchodLista() {
+		return rozchodLista;
+	}
+
+	public void setRozchodLista(Rozchod rozchodLista) {
+		this.rozchodLista = rozchodLista;
+	}
+
+	
+	private Przchod przychodLista;
+	private Rozchod rozchodLista;
+	
+	public StanMagazynowy(){}
+	
+	public StanMagazynowy(Magazyn magazyn, Produkt produkt){
+		setMagazyn(magazyn);
+		setProdukt(produkt);
+	}
 	
 	public int getStan_magazynowy_id() {
 		return stan_magazynowy_id;

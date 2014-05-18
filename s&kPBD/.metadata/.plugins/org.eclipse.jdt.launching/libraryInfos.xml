@@ -19,4 +19,23 @@
 <entry path="C:\Program Files\Java\jre7\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="D:\Programy\kepler" version="1.8.0_05">
+<bootpath>
+<entry path="D:\Programy\kepler\jre\lib\resources.jar"/>
+<entry path="D:\Programy\kepler\jre\lib\rt.jar"/>
+<entry path="D:\Programy\kepler\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Programy\kepler\jre\lib\jsse.jar"/>
+<entry path="D:\Programy\kepler\jre\lib\jce.jar"/>
+<entry path="D:\Programy\kepler\jre\lib\charsets.jar"/>
+<entry path="D:\Programy\kepler\jre\lib\jfr.jar"/>
+<entry path="D:\Programy\kepler\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Programy\kepler\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Programy\kepler\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 </libraryInfos>

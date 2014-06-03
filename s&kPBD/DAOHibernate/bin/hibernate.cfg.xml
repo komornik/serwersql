@@ -6,28 +6,17 @@
 			org.gjt.mm.mysql.Driver
 		</property>
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost/hurtownia?useUnicode=true&amp;characterEncoding=UTF-8
+			jdbc:mysql://localhost/hurtownia
 		</property>
 		<property name="hibernate.connection.username">
 			root
 		</property>
-		<property name="hibernate.connection.password">adm123</property>
+		<property name="hibernate.connection.password">Sybilla17</property>
 		<property name="hibernate.dialect">
 			org.hibernate.dialect.MySQLInnoDBDialect
 		</property>
-<<<<<<< HEAD
-		<property name="show_sql">true</property>
-		
-		<mapping class="pl.edu.swsim.simon_wieczorek.Klient" />
-		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />
-		<mapping class="pl.edu.swsim.simon_wieczorek.Kod_Poczt" />
-		<mapping class="pl.edu.swsim.simon_wieczorek.Ulica" />
-		<mapping class="pl.edu.swsim.simon_wieczorek.Magazyn" />
-	
-=======
 		<mapping class="pl.edu.swsim.simon_wieczorek.Produkt" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Faktura" />
->>>>>>> origin/krzysztof.simon
 	</session-factory>
 </hibernate-configuration>

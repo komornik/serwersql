@@ -16,19 +16,28 @@ import javax.persistence.UniqueConstraint;
 		)
 public class Przychod {
 
+	@Id
+	@GeneratedValue
+	@Column(name = "przychod_id", unique = true, nullable = false)
 	private int przychod_id;
+	
+	@Column(name = "ilosc", nullable = false)
 	private double ilosc;
-	/*@ManyToOne
-    @JoinColumn(name="department_id")
+	
+	@ManyToOne
+    @JoinColumn(name="stan_magazynowy_id")
 	private StanMagazynowy stan_magazynowy;
-	*/
+	
 	public Przychod() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@Id
-	@GeneratedValue
-	@Column(name = "przychod_id", unique = true, nullable = false)
+	public Przychod(double ilosc, StanMagazynowy stanMagazynowy){
+		this.ilosc=ilosc;
+		this.stan_magazynowy=stanMagazynowy;
+	}
+	
+	
 	public int getPrzychod_id() {
 		return przychod_id;
 	}
@@ -45,6 +54,15 @@ public class Przychod {
 	public void setIlosc(double ilosc) {
 		this.ilosc = ilosc;
 	}
+
+	public StanMagazynowy getStan_magazynowy() {
+		return stan_magazynowy;
+	}
+
+	public void setStan_magazynowy(StanMagazynowy stan_magazynowy) {
+		this.stan_magazynowy = stan_magazynowy;
+	}
+	
 
 	
 }

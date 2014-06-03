@@ -42,17 +42,15 @@ public class KlientDAOImp implements KlientDAO{
 	}
 
 	@Override
-	public Klient getKlientByNip(String nip) {
+	public List<Klient> getNip(String nip) {
 			Session session = HibernateFactor.getInstance().openSession();
 			Transaction tx = session.beginTransaction();
 			
-			org.hibernate.Query query = session.createQuery("FROM Klient WHERE nip = "+nip);
-			
-			Klient klient = (Klient)query.uniqueResult();
+			List<Klient> klientLista = session.createQuery("FROM Klient WHERE nip = "+nip).list();
 			
 			tx.commit();
 			session.close();
-		return klient;
+		return klientLista;
 	}
 
 	@Override

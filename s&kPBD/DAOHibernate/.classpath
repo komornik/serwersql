@@ -17,5 +17,6 @@
 	<classpathentry kind="lib" path="lib/commons-collections-3.1.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-3.0.14-production-bin.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/Git/serwersql/s&amp;kPBD/derby.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

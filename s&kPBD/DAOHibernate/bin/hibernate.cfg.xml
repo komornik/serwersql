@@ -2,19 +2,21 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.connection.driver_class">
-			org.gjt.mm.mysql.Driver
+			org.apache.derby.jdbc.EmbeddedDriver
 		</property>
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost/hurtownia?useUnicode=true&amp;characterEncoding=UTF-8
+			jdbc:derby:hurtownia;create=true
 		</property>
 		<property name="hibernate.connection.username">
 			root
 		</property>
 		<property name="hibernate.connection.password">adm123</property>
 		<property name="hibernate.dialect">
-			org.hibernate.dialect.MySQLInnoDBDialect
+			org.hibernate.dialect.DerbyDialect
 		</property>
 		<property name="show_sql">true</property>
+		
+		<!-- property name="hbm2ddl.auto">create</property -->
 		
 		<mapping class="pl.edu.swsim.simon_wieczorek.Klient" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Rabat" />

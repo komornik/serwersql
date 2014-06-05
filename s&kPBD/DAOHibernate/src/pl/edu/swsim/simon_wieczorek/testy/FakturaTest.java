@@ -24,7 +24,7 @@ public class FakturaTest {
 		FakturaDAOImp fakturaDAO = new FakturaDAOImp();
 		
 		fakturaDAO.add(f);
-		fakturaDAO.delete(1);
+		//fakturaDAO.delete(1);
 		//assertEquals("Test ", size1+1, size2);
 		//System.out.print("size1 "+ size1 + " size2 "+ size2);
 		

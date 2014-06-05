@@ -21,6 +21,13 @@
 		<mapping class="pl.edu.swsim.simon_wieczorek.Kod_Poczt" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Ulica" />
 		<mapping class="pl.edu.swsim.simon_wieczorek.Magazyn" />
-	
+		<mapping class="pl.edu.swsim.simon_wieczorek.Magazyn" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Produkt" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Stan_Magazynowy" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Rozchod" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Przychod" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Zamowienie" />
+		<mapping class="pl.edu.swsim.simon_wieczorek.Faktura" />
+		
 	</session-factory>
 </hibernate-configuration>

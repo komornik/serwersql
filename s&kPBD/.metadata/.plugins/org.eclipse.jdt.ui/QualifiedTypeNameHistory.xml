@@ -29,7 +29,6 @@
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Kod_PocztDAOImp"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Kod_Poczt"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
-<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.MagazynDAO"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
@@ -37,14 +36,18 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.UlicaDAOImp"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.MagazynDAOImp"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Magazyn"/>
 <fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Ulica"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.StanMagazynowy"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.MetaValue"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="pl.edu.swsim.simon_wieczorek.Stan_MagazynowyDAO"/>
 </qualifiedTypeNameHistroy>

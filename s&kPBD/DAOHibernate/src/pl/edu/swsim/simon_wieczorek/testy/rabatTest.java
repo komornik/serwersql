@@ -15,7 +15,7 @@ public class rabatTest{
 		@Test
 		public void testRabat(){
 			  Rabat r = new Rabat();
-			  r.setWysokosc(0.6);
+			  r.setWysokosc(0.2);
 			  RabatDAOImp tImp = new RabatDAOImp();
 			  List<Rabat> r1= tImp.get();
 			  tImp.add(r);

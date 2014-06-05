@@ -40,7 +40,7 @@ public class UlicaDAOImp implements UlicaDAO{
 			Ulica ulica = (Ulica)session.get(Ulica.class, ulica_id);
 			tx.commit();
 			session.close();
-		return ulica;
+			return ulica;
 	}
 
 	@Override

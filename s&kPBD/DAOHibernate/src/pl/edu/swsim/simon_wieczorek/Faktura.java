@@ -1,6 +1,8 @@
 package pl.edu.swsim.simon_wieczorek;
 
 import java.sql.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.*;
 
@@ -32,6 +34,12 @@ public class Faktura {
 	private String sciezka;
 	private Date data_wystawienia;
 	private int klient_id;
+	
+	@ManyToMany(cascade = {CascadeType.ALL})
+    @JoinTable(name="zamowienie_has_faktura", 
+                joinColumns={@JoinColumn(name="faktura_id")}, 
+                inverseJoinColumns={@JoinColumn(name="zamowienie_id")})
+    private Set<Zamowienie> zamowienie = new HashSet<Zamowienie>();
 	
 	@Id
 	@GeneratedValue
@@ -75,6 +83,12 @@ public class Faktura {
 	}
 	public void setKlient_id(int klient_id) {
 		this.klient_id = klient_id;
+	}
+	public Set<Zamowienie> getZamowienie() {
+		return zamowienie;
+	}
+	public void setZamowienie(Set<Zamowienie> zamowienie) {
+		this.zamowienie = zamowienie;
 	}
 
 	

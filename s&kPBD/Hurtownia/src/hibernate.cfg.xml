@@ -1,0 +1,35 @@
+<!DOCTYPE hibernate-configuration SYSTEM "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">
+			org.apache.derby.jdbc.EmbeddedDriver
+		</property>
+		<property name="hibernate.connection.url">
+			jdbc:derby:hurtownia;create=true
+		</property>
+		<property name="hibernate.connection.username">
+			root
+		</property>
+		<property name="hibernate.connection.password">adm123</property>
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.DerbyDialect
+		</property>
+		<property name="show_sql">true</property>
+		
+		<property name="hbm2ddl.auto">update</property>
+		
+		<mapping class="pl.projektDB.beans.Klient" />
+		<mapping class="pl.projektDB.beans.Rabat" />
+		<mapping class="pl.projektDB.beans.Kod_poczt" />
+		<mapping class="pl.projektDB.beans.Ulica" />
+		<mapping class="pl.projektDB.beans.Magazyn" />
+		<mapping class="pl.projektDB.beans.Magazyn" />
+		<mapping class="pl.projektDB.beans.Produkt" />
+		<mapping class="pl.projektDB.beans.Stan_magazynowy" />
+		<!-- mapping class="pl.projektDB.beans.Rozchod" / -->
+		<mapping class="pl.projektDB.beans.Przychod" />
+		<!-- mapping class="pl.projektDB.beans.Zamowienie" / -->
+		<!-- mapping class="pl.projektDB.beans.Faktura" /-->
+		
+	</session-factory>
+</hibernate-configuration>
